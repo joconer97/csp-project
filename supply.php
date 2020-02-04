@@ -177,7 +177,14 @@
 							 var trValue = "<tr>"+
 				                         	  	"<td><input  value='test' id='"+name+"'/></td>"+
 				                         	  	"<td><input  value='test' id='"+quantity+"'/></td>"+
-				                         	  	"<td><input  value='test' id='"+category+"'/></td>"+
+				                         	  	"<td> <select class='form-control' id='"+category+"'>"+
+													      "<option>Mouse</option>"+
+													       "<option>Keyboard</option>"+
+													       "<option>Monitor</option>"+
+													       "<option>Graphics</option>"+
+													       "<option>Processor</option>"+
+													        "<option>Motherboard</option>"+
+													    "</select></td>"+
 				                         	  	"<td>"+btnDelete+"</td>"+
 				                         	  	"<td>"+btnUpdate+"</td>"+
 											"</tr>"
